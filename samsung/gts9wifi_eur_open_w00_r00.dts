@@ -10100,7 +10100,6 @@
 				sec,firmware_name = "tsp_stm/fts1ba90a_gts8p.bin";
 				sec,regulator_boot_on;
 				enable_settings_aot;
-				support_dex_mode;
 				support_fod;
 				support_fod_lp_mode;
 				support_open_short_test;
