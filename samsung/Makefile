@@ -52,6 +52,16 @@ SAMSUNG_KALAMA_BOARDS += \
     gts9wifi_eur_open_w00_r04.dtbo
 endif
 
+ifeq ($(CONFIG_SEC_PLATFORM_B5Q),y)
+SAMSUNG_KALAMA_BOARDS +=\
+    b5q_eur_openx_w00_r02.dtbo \
+    b5q_eur_openx_w00_r03.dtbo \
+    b5q_eur_openx_w00_r05.dtbo \
+    b5q_eur_openx_w00_r07.dtbo \
+    b5q_eur_openx_w00_r09.dtbo \
+    b5q_eur_openx_w00_r11.dtbo
+endif
+
 kalama-overlays-dtb-y += $(SAMSUNG_KALAMA_BOARDS) $(KALAMA_BASE_DTB) $(KALAMA_APQ_BASE_DTB)
 dtb-y += $(SAMSUNG_KALAMA_BOARDS) $(KALAMA_BASE_DTB) $(KALAMA_APQ_BASE_DTB)
 
